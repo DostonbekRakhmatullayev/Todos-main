@@ -1,0 +1,51 @@
+.container {
+  max-width: 1200px;
+  height: auto;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+  width: 300px;
+  padding-left: 20px;
+}
+
+.js-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list_item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list_text {
+  flex: 1;
+}
+
+.btn {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
